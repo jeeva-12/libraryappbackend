@@ -58,6 +58,12 @@ public class LibraryController
         return "User Login";
     }
 
+    @PostMapping("/userrsg")
+    public String UserRegistration()
+    {
+        return "User Registration";
+    }
+
 
 
 
