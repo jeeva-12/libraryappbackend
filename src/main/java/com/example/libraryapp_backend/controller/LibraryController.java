@@ -20,4 +20,11 @@ public class LibraryController
     }
 
 
+    @PostMapping("/edit")
+    public String Edit()
+    {
+        return "Edit Book";
+    }
+
+
 }
