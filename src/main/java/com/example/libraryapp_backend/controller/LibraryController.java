@@ -26,5 +26,11 @@ public class LibraryController
         return "Edit Book";
     }
 
+    @PostMapping("/entry")
+    public String Entry()
+    {
+        return "Book Entry";
+    }
+
 
 }
