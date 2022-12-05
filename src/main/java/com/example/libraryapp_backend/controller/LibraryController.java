@@ -39,5 +39,11 @@ public class LibraryController
         return "Book Issue";
     }
 
+    @PostMapping("/search")
+    public String Search()
+    {
+        return "Search Book";
+    }
+
 
 }
