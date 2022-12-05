@@ -33,4 +33,11 @@ public class LibraryController
     }
 
 
+    @PostMapping("/issue")
+    public String Issue()
+    {
+        return "Book Issue";
+    }
+
+
 }
